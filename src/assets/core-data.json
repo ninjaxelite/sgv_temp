@@ -1,0 +1,497 @@
+[
+    {
+        "gatt": 8625,
+        "ladelaenge": 19.5,
+        "ladegewicht": 51.6
+    },
+    {
+        "gatt": 3329,
+        "ladelaenge": 13.9,
+        "ladegewicht": 60
+    },
+    {
+        "gatt": 5355,
+        "ladelaenge": 12.9,
+        "ladegewicht": 60
+    },
+    {
+        "gatt": 1542,
+        "ladelaenge": 13.42,
+        "ladegewicht": 26
+    },
+    {
+        "gatt": 3305,
+        "ladelaenge": 12.64,
+        "ladegewicht": 120
+    },
+    {
+        "gatt": 4954,
+        "ladelaenge": 31.53,
+        "ladegewicht": 106
+    },
+    {
+        "gatt": 3923,
+        "ladelaenge": 19.2,
+        "ladegewicht": 56
+    },
+    {
+        "gatt": 3993,
+        "ladelaenge": 18.53,
+        "ladegewicht": 100
+    },
+    {
+        "gatt": 2372,
+        "ladelaenge": 12.7,
+        "ladegewicht": 29
+    },
+    {
+        "gatt": 2396,
+        "ladelaenge": 12.77,
+        "ladegewicht": 27.7
+    },
+    {
+        "gatt": 3513,
+        "ladelaenge": 25,
+        "ladegewicht": 120
+    },
+    {
+        "gatt": 4435,
+        "ladelaenge": 14.9,
+        "ladegewicht": 33.7
+    },
+    {
+        "gatt": 4719,
+        "ladelaenge": 86,
+        "ladegewicht": 530
+    },
+    {
+        "gatt": 4511,
+        "ladelaenge": 20,
+        "ladegewicht": 70.1
+    },
+    {
+        "gatt": 5947,
+        "ladelaenge": 12.8,
+        "ladegewicht": 120
+    },
+    {
+        "gatt": 5975,
+        "ladelaenge": 12.8,
+        "ladegewicht": 565
+    },
+    {
+        "gatt": 5335,
+        "ladelaenge": 12.8,
+        "ladegewicht": 69
+    },
+    {
+        "gatt": 1554,
+        "ladelaenge": 12.72,
+        "ladegewicht": 30
+    },
+    {
+        "gatt": 3354,
+        "ladelaenge": 12.8,
+        "ladegewicht": 33
+    },
+    {
+        "gatt": 855,
+        "ladelaenge": 14,
+        "ladegewicht": 57.5
+    },
+    {
+        "gatt": 5357,
+        "ladelaenge": 12.8,
+        "ladegewicht": 60.5
+    },
+    {
+        "gatt": 2749,
+        "ladelaenge": 25.8,
+        "ladegewicht": 22
+    },
+    {
+        "gatt": 1965,
+        "ladelaenge": 15.2,
+        "ladegewicht": 57
+    },
+    {
+        "gatt": 4380,
+        "ladelaenge": 31,
+        "ladegewicht": 120
+    },
+    {
+        "gatt": 5966,
+        "ladelaenge": 12.8,
+        "ladegewicht": 61
+    },
+    {
+        "gatt": 4364,
+        "ladelaenge": 30.7,
+        "ladegewicht": 68
+    },
+    {
+        "gatt": 1548,
+        "ladelaenge": 12.77,
+        "ladegewicht": 26
+    },
+    {
+        "gatt": 3527,
+        "ladelaenge": 21.05,
+        "ladegewicht": 80
+    },
+    {
+        "gatt": 5052,
+        "ladelaenge": 8.8,
+        "ladegewicht": 28.5
+    },
+    {
+        "gatt": 5318,
+        "ladelaenge": 12.79,
+        "ladegewicht": 59
+    },
+    {
+        "gatt": 811,
+        "ladelaenge": 15.28,
+        "ladegewicht": 65
+    },
+    {
+        "gatt": 5952,
+        "ladelaenge": 12.8,
+        "ladegewicht": 575
+    },
+    {
+        "gatt": 3543,
+        "ladelaenge": 18.5,
+        "ladegewicht": 56.4
+    },
+    {
+        "gatt": 5313,
+        "ladelaenge": 12.79,
+        "ladegewicht": 60
+    },
+    {
+        "gatt": 4666,
+        "ladelaenge": 19,
+        "ladegewicht": 62.3
+    },
+    {
+        "gatt": 1952,
+        "ladelaenge": 15.2,
+        "ladegewicht": 57
+    },
+    {
+        "gatt": 9444,
+        "ladelaenge": 12.5,
+        "ladegewicht": 27.5
+    },
+    {
+        "gatt": 5484,
+        "ladelaenge": 13.04,
+        "ladegewicht": 44
+    },
+    {
+        "gatt": 2378,
+        "ladelaenge": 12.78,
+        "ladegewicht": 24.5
+    },
+    {
+        "gatt": 3404,
+        "ladelaenge": 25,
+        "ladegewicht": 27.5
+    },
+    {
+        "gatt": 1681,
+        "ladelaenge": 12.73,
+        "ladegewicht": 25.5
+    },
+    {
+        "gatt": 4770,
+        "ladelaenge": 11.1,
+        "ladegewicht": 66.6
+    },
+    {
+        "gatt": 3550,
+        "ladelaenge": 12.4,
+        "ladegewicht": 65
+    },
+    {
+        "gatt": 9988,
+        "ladelaenge": 13.2,
+        "ladegewicht": 51
+    },
+    {
+        "gatt": 1583,
+        "ladelaenge": 12.7,
+        "ladegewicht": 25
+    },
+    {
+        "gatt": 3548,
+        "ladelaenge": 15.2,
+        "ladegewicht": 59
+    },
+    {
+        "gatt": 2781,
+        "ladelaenge": 25,
+        "ladegewicht": 61.6
+    },
+    {
+        "gatt": 4361,
+        "ladelaenge": 25.24,
+        "ladegewicht": 57.5
+    },
+    {
+        "gatt": 9735,
+        "ladelaenge": 18.66,
+        "ladegewicht": 56
+    },
+    {
+        "gatt": 4622,
+        "ladelaenge": 14,
+        "ladegewicht": 59
+    },
+    {
+        "gatt": 627,
+        "ladelaenge": 0,
+        "ladegewicht": 0
+    },
+    {
+        "gatt": 7970,
+        "ladelaenge": 9,
+        "ladegewicht": 70
+    },
+    {
+        "gatt": 4445,
+        "ladelaenge": 13.7,
+        "ladegewicht": 26
+    },
+    {
+        "gatt": 7840,
+        "ladelaenge": 0,
+        "ladegewicht": 66
+    },
+    {
+        "gatt": 5400,
+        "ladelaenge": 12.8,
+        "ladegewicht": 80
+    },
+    {
+        "gatt": 3961,
+        "ladelaenge": 12.64,
+        "ladegewicht": 62
+    },
+    {
+        "gatt": 4864,
+        "ladelaenge": 15,
+        "ladegewicht": 100
+    },
+    {
+        "gatt": 4303,
+        "ladelaenge": 25.8,
+        "ladegewicht": 64.1
+    },
+    {
+        "gatt": 853,
+        "ladelaenge": 12.4,
+        "ladegewicht": 57.5
+    },
+    {
+        "gatt": 3346,
+        "ladelaenge": 12.5,
+        "ladegewicht": 28
+    },
+    {
+        "gatt": 3333,
+        "ladelaenge": 12.5,
+        "ladegewicht": 28
+    },
+    {
+        "gatt": 2926,
+        "ladelaenge": 29.3,
+        "ladegewicht": 57
+    },
+    {
+        "gatt": 9767,
+        "ladelaenge": 0,
+        "ladegewicht": 0
+    },
+    {
+        "gatt": 9960,
+        "ladelaenge": 0,
+        "ladegewicht": 300
+    },
+    {
+        "gatt": 9470,
+        "ladelaenge": 11.18,
+        "ladegewicht": 50
+    },
+    {
+        "gatt": 5247,
+        "ladelaenge": 8.8,
+        "ladegewicht": 27.5
+    },
+    {
+        "gatt": 9403,
+        "ladelaenge": 0,
+        "ladegewicht": 0
+    },
+    {
+        "gatt": 4189,
+        "ladelaenge": 15.2,
+        "ladegewicht": 12
+    },
+    {
+        "gatt": 7809,
+        "ladelaenge": 9.4,
+        "ladegewicht": 64.9
+    },
+    {
+        "gatt": 9436,
+        "ladelaenge": 13,
+        "ladegewicht": 45
+    },
+    {
+        "gatt": 1538,
+        "ladelaenge": 12.6,
+        "ladegewicht": 24.5
+    },
+    {
+        "gatt": 4423,
+        "ladelaenge": 12.8,
+        "ladegewicht": 28
+    },
+    {
+        "gatt": 3384,
+        "ladelaenge": 14.1,
+        "ladegewicht": 27.5
+    },
+    {
+        "gatt": 2932,
+        "ladelaenge": 37,
+        "ladegewicht": 140
+    },
+    {
+        "gatt": 2892,
+        "ladelaenge": 22,
+        "ladegewicht": 62.5
+    },
+    {
+        "gatt": 3519,
+        "ladelaenge": 18.5,
+        "ladegewicht": 25
+    },
+    {
+        "gatt": 2846,
+        "ladelaenge": 22,
+        "ladegewicht": 64
+    },
+    {
+        "gatt": 4637,
+        "ladelaenge": 22,
+        "ladegewicht": 64.6
+    },
+    {
+        "gatt": 9345,
+        "ladelaenge": 13.8,
+        "ladegewicht": 61.7
+    },
+    {
+        "gatt": 7965,
+        "ladelaenge": 0,
+        "ladegewicht": 59.1
+    },
+    {
+        "gatt": 2451,
+        "ladelaenge": 52,
+        "ladegewicht": 45.5
+    },
+    {
+        "gatt": 9490,
+        "ladelaenge": 0,
+        "ladegewicht": 0
+    },
+    {
+        "gatt": 4219,
+        "ladelaenge": 24.2,
+        "ladegewicht": 10
+    },
+    {
+        "gatt": 3825,
+        "ladelaenge": 19.6,
+        "ladegewicht": 120
+    },
+    {
+        "gatt": 5483,
+        "ladelaenge": 0,
+        "ladegewicht": 57.8
+    },
+    {
+        "gatt": 3521,
+        "ladelaenge": 21.61,
+        "ladegewicht": 64.5
+    },
+    {
+        "gatt": 1529,
+        "ladelaenge": 12.72,
+        "ladegewicht": 26
+    },
+    {
+        "gatt": 2604,
+        "ladelaenge": 15.2,
+        "ladegewicht": 55
+    },
+    {
+        "gatt": 822,
+        "ladelaenge": 14.63,
+        "ladegewicht": 56
+    },
+    {
+        "gatt": 9322,
+        "ladelaenge": 12.7,
+        "ladegewicht": 52
+    },
+    {
+        "gatt": 9321,
+        "ladelaenge": 9.3,
+        "ladegewicht": 59.2
+    },
+    {
+        "gatt": 5245,
+        "ladelaenge": 8.76,
+        "ladegewicht": 28.5
+    },
+    {
+        "gatt": 7748,
+        "ladelaenge": 11.4,
+        "ladegewicht": 66.5
+    },
+    {
+        "gatt": 4307,
+        "ladelaenge": 25.5,
+        "ladegewicht": 57
+    },
+    {
+        "gatt": 7887,
+        "ladelaenge": 0,
+        "ladegewicht": 62
+    },
+    {
+        "gatt": 3554,
+        "ladelaenge": 18.5,
+        "ladegewicht": 67
+    },
+    {
+        "gatt": 6637,
+        "ladelaenge": 12.5,
+        "ladegewicht": 65
+    },
+    {
+        "gatt": 4645,
+        "ladelaenge": 11.88,
+        "ladegewicht": 56.5
+    },
+    {
+        "gatt": 4356,
+        "ladelaenge": 30.56,
+        "ladegewicht": 56
+    }
+]

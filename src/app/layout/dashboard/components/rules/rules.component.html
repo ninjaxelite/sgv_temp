@@ -1,0 +1,28 @@
+<div class="rules-wrapper col-lg-12">
+  <div class="card">
+    <div class="card-body">
+      <button type="button" [class]="filtered ? 'btn btn-outline-primary fa fa-check' : 'btn btn-outline-primary fa fa-times'" 
+        [pTooltip]="filtered ? 'Filter: Aktiv' : 'Filter: Inaktiv'" tooltipPosition="right" (click)="filter()"></button>
+      <button type="button" pTooltip="Details: Lorem ipsum dolor sit amet" tooltipPosition="bottom" class="btn btn-outline-primary">Lorem ipsum dolor sit amet</button>
+      <button type="button" pTooltip="Details: Lorem ipsum dolor sit amet" tooltipPosition="bottom" class="btn btn-outline-primary">Lorem ipsum dolor sit amet</button>
+      <button type="button" pTooltip="Details: Lorem ipsum dolor sit amet" tooltipPosition="bottom" class="btn btn-outline-primary">Lorem ipsum dolor sit amet</button>
+      <button type="button" pTooltip="Details: Lorem ipsum dolor sit amet" tooltipPosition="bottom" class="btn btn-outline-primary">Lorem ipsum dolor sit amet</button>
+      <div class="btn-group">
+          <button type="button" class="btn btn-outline-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Weitere Regeln
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#"
+              pTooltip="Details: Lorem ipsum dolor sit amet" tooltipPosition="right">Lorem ipsum dolor sit amet</a>
+            <a class="dropdown-item" href="#"
+            pTooltip="Details: Lorem ipsum dolor sit amet" tooltipPosition="right">Lorem ipsum dolor sit amet</a>
+            <a class="dropdown-item" href="#"
+            pTooltip="Details: Lorem ipsum dolor sit amet" tooltipPosition="right">Lorem ipsum dolor sit amet</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#"
+            pTooltip="Details: Lorem ipsum dolor sit amet" tooltipPosition="right">Lorem ipsum dolor sit amet</a>
+          </div>
+        </div>
+    </div>  
+  </div>
+</div>

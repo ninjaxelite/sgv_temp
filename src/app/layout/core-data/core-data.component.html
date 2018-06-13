@@ -1,0 +1,71 @@
+<app-spinner></app-spinner>
+<div #divOverlay style="opacity: 0.5; pointer-events: none;">
+  <p-table #dt [columns]="header" [value]="stammdaten" 
+    [paginator]="true" [rows]="rows" [totalRecords]="totalRows" [rowsPerPageOptions]="rowPerPage" 
+    [lazy]="true" (onLazyLoad)="loadLazy($event)" [loading]="loading"
+    [(selection)]="selectedData" sortMode="multiple" filterDelay="400"
+    (onEditComplete)="onEditComplete(dt, $event)" (onEditInit)="onEditInit(dt, $event)" 
+    (onEdit)="onEdit(dt, $event)" (onEditCancel)="onEditCancel(dt, $event)"
+    (onRowSelect)="onRowSelect(dt, $event)" (onSort)="findRow(1)">
+    <ng-template pTemplate="caption">
+      <div class="toolbar">
+        <a (click)="addRow(dt)">
+          <span class="fa fa-plus-circle"></span>
+        </a>
+        <a *ngIf="selectedData.length > 0" (click)="deleteToggle(dt)">
+          <span class="fa fa-times-circle"></span>
+        </a>
+      </div>
+    </ng-template>
+    <ng-template pTemplate="header" let-columns>
+      <tr>
+        <th style="width: 5px">
+          <p-tableHeaderCheckbox #tabHeaderChbx></p-tableHeaderCheckbox>
+        </th>
+        <th *ngFor="let col of columns" style="width:150px" [pSortableColumn]="col.field">
+          {{col.header}}
+          <p-sortIcon [field]="col.field"></p-sortIcon>
+        </th>
+      </tr>
+      <tr>
+        <th></th>
+        <th *ngFor="let column of columns">
+          <input pInputText type="text" style="width:130px" (click)="findRow(1)" (input)="dt.filter($event.target.value, column.field, 'contains')">
+        </th>
+      </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-rowData let-rowIndex="rowIndex" let-columns="columns">
+      <tr [pSelectableRow]="rowData" (click)="findRow(rowIndex)">
+        <td style="width:5px;">
+          <p-tableCheckbox [value]="rowData"></p-tableCheckbox>
+        </td>
+        <td *ngFor="let col of columns" id="{{col.field}}{{rowIndex}}" style="width:150px;height: 27px" #td [pEditableColumn]="rowData[col.field]"
+          [pEditableColumnField]="rowData[col.field]">
+          <div *ngIf="col.editable">
+            <p-cellEditor>
+              <ng-template pTemplate="input">
+                <div class="input-group">
+                  <input type="text" class="form-control" pInputText pKeyFilter="num" [(ngModel)]="rowData[col.field]" />
+
+                  <!--<button class="input-group-addon btn btn-outline-success" style="right: 40px" type="submit" (click)="saveData2( dt)">
+                  <i class="fa fa-check"></i>
+                </button>
+                
+                <button class="input-group-addon btn btn-outline-danger" type="submit" (click)="cancelRowEdit()">
+                  <i class="fa fa-times"></i>
+                </button>-->
+                </div>
+              </ng-template>
+              <ng-template pTemplate="output">
+                {{rowData[col.field]}}
+              </ng-template>
+            </p-cellEditor>
+          </div>
+          <div *ngIf="!col.editable">
+            {{rowData[col.field]}}
+          </div>
+        </td>
+      </tr>
+    </ng-template>
+  </p-table>
+</div>

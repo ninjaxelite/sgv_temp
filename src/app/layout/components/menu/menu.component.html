@@ -1,0 +1,61 @@
+<nav class="navbar navbar-expand-lg navbar-fixed-tom navbar-light bg-light">
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      
+        
+        <div class="forderObjekt"> 
+            <span><i class="fa fa-database" aria-hidden="true"></i></span>
+            <span>Forder Objekt: </span>
+            <span>2018 / April / EVU</span>
+            <button type="button" class="btn btn-outline-primary"><i class="fa fa-cog" aria-hidden="true"></i>Ändern</button>
+        </div>
+
+
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" routerLink="/coredata">Stammdaten <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Berater</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Regelverwaltung</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="notificationNav" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fa fa-envelope"></i> <b class="caret"></b><span class="sr-only">(current)</span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-right messages">
+                <li class="message">
+                    <span class="message-success"><i class="fa fa-check-circle-o" aria-hidden="true"></i></span>
+                    <div class="message-body">
+                        <p class="small text-muted"><i class="fa fa-clock-o"></i> Gestern um 14:32</p>
+                        <p class="last"> Lorem ipsum dolor sit amet, consectetur...</p>
+                    </div>
+                </li>
+                <li class="message">
+                    <span class="message-error"><i class="fa fa-times-circle-o" aria-hidden="true"></i></span>
+                    <div class="message-body">
+                        <p class="small text-muted"><i class="fa fa-clock-o"></i> Gestern um 14:32</p>
+                        <p class="last"> Lorem ipsum dolor sit amet, consectetur...</p>
+                    </div>
+                </li>
+            </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="userNav" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Benutzer
+          </a>
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userNav">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Profile</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Ausmelden</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+</nav>
